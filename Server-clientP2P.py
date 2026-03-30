@@ -2,6 +2,12 @@ import socket
 import threading
 import os
 import random
+import tkinter as tk
+
+SHARED_DIR = "shared_files"
+if not os.path.exists(SHARED_DIR):
+    os.makedirs(SHARED_DIR)
+
 
 def handle_client(conn):
     while True:
