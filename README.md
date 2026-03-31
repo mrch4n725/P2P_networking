@@ -13,5 +13,7 @@ Direct File Transfer: A core focus on establishing stable connections between a 
 
 🛠️ CURRENT STATUS:
 *The UI is being drafted*, featuring separate modules for Server hosting and Client connection. The underlying networking and threading protocols are still in the prototype phase and are being refined for stability.
+PROTOTYPE UI now finished, Theme changing button complete- only available themes are light and dark mode.
 
 _*First version of UI released under test branch, semi-functional._
+
