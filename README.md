@@ -1,5 +1,6 @@
 Secure P2P (Work in Progress)
 
+
 ⚠️ Note: This project is currently under active development and is not yet functional.
 This is a conceptual Python-based peer-to-peer (P2P) script designed to facilitate direct file transfers between users. The project aims to provide a lightweight, decentralized way to share data without relying on a middleman server.
 
@@ -16,4 +17,4 @@ Direct File Transfer: A core focus on establishing stable connections between a 
 PROTOTYPE UI now finished, Theme changing button complete- only available themes are light and dark mode.
 
 _*First version of UI released under test branch, semi-functional._
-
+🔨🗁NOW beginning working process for first functional Server Networking file.
