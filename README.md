@@ -15,7 +15,9 @@ Direct File Transfer: A core focus on establishing stable connections between a 
 🛠️ CURRENT STATUS:
 *The UI is being drafted*, featuring separate modules for Server hosting and Client connection. The underlying networking and threading protocols are still in the prototype phase and are being refined for stability.
 PROTOTYPE UI now finished, Theme changing button complete- only available themes are light and dark mode
+
 _NOW_ working on connection pages and file transfer UI.
+
 *(01/04/26: UI buttons not dimming for dark theme. Added Connection Successful pages. Added IP display to client and server screens. Added status text to client and server screens also. Refreshes for continuity.)*
 
 BASIC NETWORKING LOGIC COMPLETE, in main branch "socket_test" is most the most recent version. "comprehensive_test" in testing branch used to verify. Assisted by *@mtt004*
