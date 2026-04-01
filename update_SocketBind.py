@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import ttk
 import platform
 
+
 # ===== DPI for Windows =====
 if platform.system() == "Windows":
     import ctypes
@@ -21,6 +22,14 @@ CHUNK_SIZE = 65536
 # ===== TKINTER SETUP =====
 root = tk.Tk()
 root.title("P2P File Share")
+
+#set window taskbar icon:
+try:
+    icon = tk.PhotoImage(file="fionn_logo.png")  # must be PNG or GIF
+    root.iconphoto(True, icon)
+except Exception as e:
+    print(f"Failed to set icon: {e}")
+
 root.geometry(f"{WINDOW_SIZE}x{WINDOW_SIZE}+50+50")
 root.configure(bg="#121212")
 
